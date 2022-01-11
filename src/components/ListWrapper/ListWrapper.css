@@ -1,0 +1,17 @@
+/* .listWrapper__wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    @media (min-width:800px) {
+        margin: 0 auto;
+    }
+} */
+
+
+.textIfNothing{
+    font-size: 1.25em;
+    color: darkgrey;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    @media (max-width:600px) {
+        flex-direction: column;
+    }
+}
+
+.navItem {
+    list-style: none;
+    margin-right: 25px;
+    margin-left: 25px;
+
+    &Link {
+        text-decoration: none;
+        color: #818181;
+    }
+}
+
+.active {
+    font-weight: 700;
+    text-decoration: none;
+    color: #818181;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+    margin-right: 10px;
+    @media (max-width:550px) {
+        margin-top: 10px;
+    }
+    display: flex;
+    align-items: center;
+
+    input{
+        margin-right: 2px;
+        vertical-align: middle;
+    }
+}
+
+
+
+.label{
+    cursor: pointer;
+    color: var(--blue-color);
+    font-weight: 700;
+    
+}
